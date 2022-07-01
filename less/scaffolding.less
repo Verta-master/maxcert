@@ -1,0 +1,78 @@
+body {
+  width: 100%;
+  max-width: 100%;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fff;
+}
+.footer {
+  margin-top: auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+main a,
+footer a {
+  text-decoration: underline;
+  
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+}
+address {
+  font-style: normal;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+figure {
+  .reset();
+}
+textarea,
+input,
+button,
+select {
+  font-family: "Rubik", "Arial", sans-serif;
+  color: #000;
+  border: none;
+}
+textarea,
+input,
+button,
+select,
+a {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  &:focus { 
+    outline: none !important;
+  }
+}
+button {
+  padding: 0;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+}
